@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Suby",
+    "slug": "front_suby",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/suby-brand.png",
+    "scheme": "frontsuby",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/suby-brand.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#653728",
+        "foregroundImage": "./assets/images/suby-brand.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#653728",
+          "image": "./assets/images/suby-brand.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "android": {
+            "backgroundColor": "#653728",
+            "image": "./assets/images/suby-brand.png",
+            "imageWidth": 180
+          },
+          "ios": {
+            "backgroundColor": "#653728",
+            "image": "./assets/images/suby-brand.png",
+            "imageWidth": 180
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
